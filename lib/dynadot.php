@@ -60,7 +60,7 @@ class Dynadot{
 	}
 
 	public function setFolder($domain,$folder){
-		return $this->call('set_folder',"&domain=".$domain."&folder=".$folder)
+		return $this->call('set_folder',"&domain=".$domain."&folder=".$folder);
 	}
 }
 ?>
